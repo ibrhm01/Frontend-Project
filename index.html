@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/52aeeca615.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./js/index.js" defer></script>
+</head>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand jirono logo" href="#">
+                        <img src="./assets/images/jirono-blue.png" alt="jirono-logo">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown-discover">
+                                    <a class="nav-link discover" href="#">Discover</a>
+                                    <div class="dropdown-discover-content">
+                                        <a href="#fields" class="features">Features</a>
+                                        <a href="#our-team" class="our-team">Our Team</a>
+                                        <a href="#pricing" class="pricing-plans">Pricing Plans</a>
+                                        <a href="#blog-posts" class="latest-blogs">Latest Blogs</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown-pages">
+                                    <a class="nav-link pages" href="#">Pages</a>
+                                    <div class="dropdown-pages-content">
+                                        <a href="./about-us.html">About Us</a>
+                                        <a href="./features.html">Features</a>
+                                        <a href="./faq.html">FAQ's</a>
+                                        <a href="./blog.html">Blog</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="navbar-btns">
+                            <button class="btn btn-outline-success" type="button">SIGN IN</button>
+                            <button class="btn btn-outline-success" type="button">SIGN UP</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-bars menu-icon"></i>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="text col-lg-6 col-12">
+                    <h4>Industry Leading Managed Services and Staffing <span>Solutions</span></h4>
+                    <p>Proven methods to capture business priorities and goals as well as current pain points that
+                        enables
+                        measurable business outcomes.</p>
+                    <button class="btn">Learn More</button>
+                </div> 
+                <!-- <div class="our-goal col-lg-6 col-12">
+                    <div class="image-1">
+                        <img src="./assets/images/1.jpg">
+                    </div>
+                    <div class="image-2">
+                        <img src="./assets/images/2.jpg">
+                    </div>
+                    <div class="image-3">
+                        <img src="./assets/images/3.jpg">
+                    </div>
+                    <div class="image-4">
+                        <img src="./assets/images/1.jpg">
+                    </div>
+                </div>  -->
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="fields">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 co-12">
+                    <div class="card">
+                        <div class="cloud-logo">
+                            <i class="fa fa-cloud"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Solutions</h5>
+                            <p class="card-text">Morbilling pharetra sapiening ut mattis viverra. Curabitur magna.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card">
+                        <div class="laptop-logo">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Network Services</h5>
+                            <p class="card-text">Donec pellentesque turpis utium lorem imperdiet semper viverra.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card">
+                        <div class="camera-logo">
+                            <i class="fa fa-video-camera"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Webcast Services</h5>
+                            <p class="card-text">Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at
+                                justo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="card">
+                        <div class="server-logo">
+                            <i class="fa fa-server"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Disaster Recovery</h5>
+                            <p class="card-text">Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cloud-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="cloud-services-text">
+                        <h4>Cloud Services</h4>
+                        <p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu
+                            augue,
+                            molestie faucibus metus ullamcorper vel.</p>
+                        <div class="cloud-services-text-list">
+                            <div class="col-md-6 col-12 list-1">
+                                <li>NearCloud</li>
+                                <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <li>Backup Systems</li>
+                                <p class="display-none">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                <li>API Cloud</li>
+                                <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <li>Web Services</li>
+                                <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-12 list-2">
+                                <li>Office Cloud</li>
+                                <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <li>Hybrid Cloud</li>
+                                <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <li>SDK Cloud</li>
+                                <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <li>Cloud Hosting</li>
+                                <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 ">
+                    <div class="cloud-services-image">
+                        <img class="img-fluid" src="./assets/images/cloud-services-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="design-development">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 design-development-image">
+                    <img class="img-fluid" src="./assets/images/design-development-image.png" alt="">
+                </div>
+                <div class="col-lg-6 col-12 design-development-text">
+                    <h4>Design & Development</h4>
+                    <p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue,
+                        molestie faucibus metus ullamcorper vel.</p>
+                    <div class="design-development-text-list">
+                        <div class="col-md-6 col-12 list-1">
+                            <li>Web Design</li>
+                            <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <li>Android Development</li>
+                            <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <li>Back End</li>
+                            <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <li>e-Commerce</li>
+                            <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="col-md-6 col-12 list-2">
+                            <li>Mobile App Design</li>
+                            <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <li>IOS Development</li>
+                            <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <li>Front-End</li>
+                            <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <li>Print Design</li>
+                            <p class="display-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="statistics">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="project-template">
+                        <h3>96</h3>
+                        <span>Project <br>Complate</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="happy-customer">
+                        <h3>190</h3>
+                        <span>Happy <br>Customer</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="experienced-staff">
+                        <h3>12</h3>
+                        <span>Experienced <br>Staff</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="ongoing-project">
+                        <h3>46</h3>
+                        <span>Ongoing <br>Project</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="our-team">
+        <div class="container">
+            <div class="row">
+                <div class="our-team-title col-12">
+                    <h3>Our Team</h3>
+                    <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue
+                        risus
+                        volutpat.</p>
+                </div>
+                <div class="our-team-members col-12">
+                    <div class="member col-lg-3 col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h6>Fletch Skinner</h6>
+                                <span>Product Strategist</span>
+                            </div>
+                            <div class="icons">
+                                <a><i class="fa-brands fa-facebook-f"></i></a>
+                                <a><i class="fa-brands fa-twitter"></i></a>
+                                <a><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a><i class="fa-brands fa-github"></i></a>
+                            </div>
+
+                            <div class="card-body">
+                                <p class="card-text">Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at
+                                    justo.
+                                    Sed
+                                    at lorem</p>
+                            </div>
+                        </div>
+                        <div class="member-image">
+                            <img src="./assets/images/card-image-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="member col-lg-3 col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h6>Lance Bogrol</h6>
+                                <span>Visual Designer</span>
+                            </div>
+
+                            <div class="icons">
+                                <a><i class="fa-brands fa-facebook-f"></i></a>
+                                <a><i class="fa-brands fa-twitter"></i></a>
+                                <a><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Aliquam eget convallis nunc, et porta libero. Etiam velit, lobortis
+                                    ut
+                                    tristique.</p>
+                            </div>
+                        </div>
+                        <div class="member-image">
+                            <img src="./assets/images/card-image-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="member col-lg-3 col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h6>Valentino Morose</h6>
+                                <span>Android Developer</span>
+                            </div>
+                            <div class="icons">
+                                <a><i class="fa-brands fa-facebook-f"></i></a>
+                                <a><i class="fa-brands fa-twitter"></i></a>
+                                <a><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Curabitur tristique nec orci quis porta. Aliquam leo justo,
+                                    auctor
+                                    eget
+                                    sapien.</p>
+                            </div>
+                        </div>
+                        <div class="member-image">
+                            <img src="./assets/images/card-image-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="member  col-lg-3 col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h6>Giles Posture</h6>
+                                <span>IOS Developer</span>
+                            </div>
+                            <div class="icons">
+                                <a><i class="fa-brands fa-facebook-f"></i></a>
+                                <a><i class="fa-brands fa-twitter"></i></a>
+                                <a><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Nunc posuere lectus ut aliquet facilisis. Nam varius id magna
+                                    et
+                                    convallis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="member-image">
+                            <img src="./assets/images/card-image-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="container">
+            <div class="pricing-title col-lg-12">
+                <h3>Princing Plans</h3>
+                <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue
+                    risus
+                    volutpat.</p>
+            </div>
+            <div class="pricing-plans col-lg-12">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card basic-plan">
+                        <div class="card-header">
+                            <h3> Basic Plan
+                            </h3>
+                        </div>
+                        <p class="a">1</p>
+                        <div class="card-body">
+                            <h5 class="card-title"><span>$</span>13.90 <span>/Month</span>
+                            </h5>
+                            <p class="card-text">Unlimited Website</p>
+                            <p class="card-text">Unlimited Users</p>
+                            <p class="card-text">5 GB Bandwidth</p>
+                            <p class="card-text">Highest Speed</p>
+                            <div class="inactive">
+                                <p class="card-text">Data Security and Backupss</p>
+                                <p class="card-text">1 GB Storage</p>
+                                <p class="card-text">24x7 Great Support</p>
+                                <p class="card-text">Monthly Reports and Analytics</p>
+                            </div>
+                            <div class="select-btn">
+                                <a href="#" class="btn btn-primary">Select Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card advanced-plan">
+                        <div class="card-header active">
+                            <h3> Advanced Plan
+                            </h3>
+                        </div>
+                        <p class="a">2</p>
+
+                        <div class="card-body">
+                            <h5 class="card-title"><span>$</span>23.90 <span>/Month</span></h5>
+                            <p class="card-text">Unlimited Website</p>
+                            <p class="card-text">Unlimited Users</p>
+                            <p class="card-text">5 GB Bandwidth</p>
+                            <p class="card-text">Highest Speed</p>
+                            <p class="card-text">Data Security and Backupss</p>
+                            <p class="card-text">1 GB Storage</p>
+                            <div class="inactive">
+                                <p class="card-text">24x7 Great Support</p>
+                                <p class="card-text">Monthly Reports and Analytics</p>
+                            </div>
+                            <div class="select-btn">
+                                <a href="#" class="btn btn-primary">Select Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card expert-plan">
+                        <div class="card-header">
+                            <h3>Expert Plan</h3>
+                        </div>
+                        <p class="a">3</p>
+
+                        <div class="card-body">
+                            <h5 class="card-title"><span>$</span>33.90 <span>/Month</span></h5>
+                            <p class="card-text">Unlimited Website</p>
+                            <p class="card-text">Unlimited Users</p>
+                            <p class="card-text">5 GB Bandwidth</p>
+                            <p class="card-text">Highest Speed</p>
+                            <p class="card-text">Data Security and Backupss</p>
+                            <p class="card-text">1 GB Storage</p>
+                            <p class="card-text">24x7 Great Support</p>
+                            <p class="card-text">Monthly Reports and Analytics</p>
+                            <div class="select-btn">
+                                <a href="#" class="btn btn-primary">Select Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us">
+        <p>We design and develop <span>web apps</span> that delight your users and grow your business.</p>
+        <a href="#"><button>CONTACT US</button></a>
+    </section>
+    <section id="home-page-blog">
+        <div class="container">
+
+            <div class="home-page-blog-title col-12">
+                <h3>Latest Blog Posts</h3>
+                <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue
+                    risus
+                    volutpat
+                </p>
+            </div>
+            <div class="home-page-blog-cards col-12">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card">
+                        <div class="first-image">
+                            <img class="card-img-top img-fluid" src="./assets/images/blog-image-1.jpg"
+                                alt="Card image cap">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Jirono Expands the Leadership Team with David Lin,
+                                    Controller</a></h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <div class="read-more-btn">
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="./assets/images/blog-image-2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Jirono Partners with Velocloud to Deliver Managed
+                                    SD-WAN</a></h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <div class="read-more-btn">
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="./assets/images/blog-image-3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#">Corporate IT Solutions Adds Neva as Senior Account
+                                    Executive</a></h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <div class="read-more-btn">
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-12">
+                <div class="footer-text">
+                    <img src="./assets/images/jirono-white.png" alt="jirono-white">
+                    <p>Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut
+                        lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="helpful-links">
+                    <h6>Helpful Links</h6>
+                    <ul>
+                        <li>About us</li>
+                        <li>Features</li>
+                        <li>FAQ's</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="support">
+                    <h6>Support</h6>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Use</li>
+                        <li>Support Center</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-12">
+                <div class="contact-info">
+                    <h6>Contact Us</h6>
+                    <p>455 West Orchard Street
+                        <br>
+                        Kings Mountain, NC 28086
+                    </p>
+                    <p>Phone: (272) 211-7370</p>
+                    <p>E-Mail:<a href="#">support@yourbrand.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <p class="rights-paragraph">© 2019 Jirono. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

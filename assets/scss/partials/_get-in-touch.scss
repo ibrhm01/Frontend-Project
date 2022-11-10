@@ -1,0 +1,51 @@
+#get-in-touch {
+    background-color: #F7FAFD;
+    padding-top: 60px;
+    padding-bottom: 80px;
+
+    .get-in-touch-text {
+        h5 {
+            color: rgb(120, 120, 120);
+            font-weight:400;
+            margin-bottom:20px;
+        }
+        p{
+            color:#6F8BA4;
+        }
+    }
+
+    .get-in-touch-form {
+        display: flex;
+        flex-wrap: wrap;
+
+        input {
+            width: 100%;
+            border: 1px solid rgba(215, 215, 215, 0.552);
+            transition:padding 0.3s;
+
+            &:focus {
+                outline: none;
+                border: 1px solid #585CE9;
+                padding-left:30px;
+            }
+
+            padding:15px 20px;
+            margin-bottom:30px;
+
+        }
+
+        .your-message {
+            input {
+                padding-bottom: 100px;
+            }
+        }
+
+        button {
+            background-color: #585CE9;
+            color: white;
+            padding: 10px 50px;
+            font-weight: 400;
+            margin-left:15px;
+        }
+    }
+}

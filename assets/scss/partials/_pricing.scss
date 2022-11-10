@@ -1,0 +1,135 @@
+#pricing {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7FAFD;
+    height: auto !important;
+    padding-top: 100px;
+
+
+    .pricing-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            font-weight: 400;
+            color: rgb(57, 57, 57);
+
+        }
+
+        p {
+            // max-width: 500px;
+            margin: 20px auto;
+            text-align: center;
+            color: grey;
+            margin-bottom: 40px;
+        }
+    }
+
+    .pricing-plans {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            height: auto;
+            box-shadow: 0 0 30px rgba(95, 95, 95, 0.127);
+            margin-bottom: 60px;
+            padding-bottom:30px;
+
+            &.basic-plan,&.advanced-plan,&.expert-plan {
+                p.a {
+                    border-radius: 50%;
+                    background-color: #F7FAFD;
+                    // border: 1px solid grey;
+                    color:#585CE9;
+                    width: 45px;
+                    height: 45px;
+                    padding:7px;
+                    text-align: center;
+                    position:relative;
+                    left:0;
+                    right:0;
+                    margin:0 auto;
+                    bottom:26px;
+                }
+
+            }
+            
+
+            .card-header {
+                background-color: white;
+                border: 0px;
+                border-bottom: 1px solid #F7FAFD;
+
+                &.active {
+                    background-color: #585CE9;
+
+                    h3 {
+                        color: white;
+                    }
+                }
+
+                h3 {
+                    text-align: center;
+                    color: rgb(116, 116, 116);
+                    font-size: 20px;
+                    // height: 100px;
+                    padding: 15% 0;
+                }
+            }
+
+            .card-body {
+                .inactive {
+                    margin-bottom: 16px;
+
+                    p {
+                        color: rgba(128, 128, 128, 0.304);
+                        text-decoration: line-through;
+                    }
+                }
+
+
+                h5 {
+                    font-size: 34px;
+                    color: #585CE9;
+                    text-align: center;
+
+
+                    span:nth-child(1) {
+                        font-size: 25px;
+                        display: inline-block;
+                        text-align: start;
+                        height: 50px;
+                        position: relative;
+                        bottom: 8px;
+                        font-weight: 400;
+                    }
+
+                    span:nth-child(2) {
+                        font-size: 20px;
+                    }
+                }
+
+                p {
+                    color: grey;
+                    text-align: center;
+                }
+
+                a {
+                    padding: 10px 40px;
+                    background-color: #585CE9;
+                    text-decoration: none;
+                    margin-top: 5px;
+                    &:focus{
+                        outline:none;
+                    }
+                }
+
+                .select-btn {
+                    width: 156px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

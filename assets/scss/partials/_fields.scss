@@ -1,0 +1,85 @@
+#fields {
+    display: flex;
+    margin-top: 205px;
+    margin-bottom:200px;
+
+
+    .fields-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            font-weight: 400;
+            color: rgb(57, 57, 57);
+            text-align: center;
+
+        }
+
+        p {
+            // max-width: 500px;
+            max-width: 500px;
+            margin: 20px auto;
+            text-align: center;
+            color: grey;
+            margin-bottom: 40px;
+        }
+    }
+
+    .card {
+        transition: background-color 0.5s;
+        margin-right: 25px;
+        border: 0px;
+        box-shadow: 0 0 25px rgba(150, 150, 150, 0.513);
+
+        &:hover {
+            background-color: #585CE9;
+
+            h5,
+            p {
+                color: white;
+            }
+
+            .cloud-logo,
+            .laptop-logo,
+            .camera-logo,
+            .server-logo {
+                background-color: white;
+            }
+        }
+
+        i {
+            color: #585CE9;
+        }
+
+        h5,
+        p {
+            text-align: center;
+        }
+
+        h5 {
+            font-weight: 400;
+            color: rgb(78, 78, 78);
+            font-size: 18px;
+        }
+
+        p {
+            color: grey;
+            margin-top: 20px;
+        }
+
+        border-radius:5px;
+
+        .cloud-logo,
+        .laptop-logo,
+        .camera-logo,
+        .server-logo {
+            border-radius: 40px;
+            background-color: #dadbee6b;
+            width: 65px;
+            padding: 21px 23px;
+            margin: auto;
+            margin-top: 20px;
+        }
+    }
+}

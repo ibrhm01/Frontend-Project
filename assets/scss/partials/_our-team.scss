@@ -1,0 +1,114 @@
+#our-team {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    
+
+    .our-team-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            font-weight: 400;
+            color: rgb(57, 57, 57);
+
+        }
+
+        p {
+            margin: 20px auto;
+            text-align: center;
+            color: rgb(174, 174, 174);
+            margin-bottom: 40px;
+        }
+
+    }
+
+    .our-team-members {
+        display: flex;
+        flex-wrap: wrap;
+
+        .member {
+
+            .member-image {
+                width:100px;
+                margin: auto;
+                position:relative;
+                bottom:10%;
+
+                img {
+                    border-radius: 50%;
+                    border: 6px solid white;
+                }
+                // display:inline;    
+            }
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                border-radius: 5px;
+                box-shadow: 0px 0px 30px rgba(36, 36, 36, 0.272);
+
+                .icons {
+                    transition: background-color 0.5s ease 0s;
+                }
+
+                &:hover {
+                    .icons {
+                        background-color: #585CE9;
+
+                        i {
+                            color: white;
+                        }
+                    }
+                }
+
+                .card-header {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #585CE9;
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+
+                    h6 {
+                        color: white;
+                    }
+
+                    span {
+                        color: rgb(212, 212, 212);
+                        font-size: 13px;
+                    }
+
+                    border:0;
+                }
+
+                .icons {
+                    text-align: center;
+                    // height: 50px;
+                    background-color: white;
+                    padding-top: 20px;
+                    // height: 55px;
+
+                    i {
+                        color: #585CE9;
+                        margin: 0 7px;
+                    }
+                }
+
+                .card-body {
+                    background-color: #fff;
+
+                    p {
+                        text-align: center;
+                    }
+
+                    height:150px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                }
+            }
+
+        }
+    }
+}

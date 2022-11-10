@@ -1,0 +1,274 @@
+@media only screen and (max-width:1199px) {
+
+
+    // cloud-services section starts
+    #cloud-services,
+    #design-development {
+
+        .cloud-services-image,
+        .design-development-image {
+            margin-top: 170px;
+        }
+    }
+
+    //cloud-section ends
+
+    //pricing section starts
+    #pricing {
+        height: 1000px;
+    }
+
+    //pricing section ends
+
+}
+
+@media only screen and (max-width:991px) {
+
+    //navbar section starts
+    header {
+        nav {
+            // border-bottom: 1px solid grey;
+            // box-shadow: 0px 1px rgba(128, 128, 128, 0.613);
+            // height:50px;
+
+            i {
+                &.menu-icon {
+                    display: block !important;
+                }
+            }
+
+            // .navbar-links,
+            // .navbar-btns {
+            //     display: none;
+            // }
+
+            // .jirono-logo {
+            //     margin-right: 500px;
+            // }
+        }
+    }
+
+    //navbar section ends
+
+
+    // about section starts
+    #about {
+        .text {
+
+            button {
+                display: block;
+                position: relative;
+                margin: auto;
+            }
+        }
+    }
+
+
+    //about sections ends
+
+    //fields section starts
+    #fields {
+        .card {
+            max-width: 370px;
+            margin-bottom: 35px;
+        }
+    }
+
+    //fields section ends
+
+    //cloud-services section starts
+    #cloud-services,
+    #design-development {
+
+        .cloud-services-image,
+        .design-development-image {
+
+            margin-top: 20px;
+
+        }
+    }
+
+    //cloud-services section ends
+
+    //statistics section starts
+    #statistics {
+
+        .project-template,
+        .happy-customer,
+        .experienced-staff,
+        .ongoing-project {
+            margin: 30px 0;
+        }
+    }
+
+    //statistics section ends
+
+
+    //pricing section starts
+    #pricing {
+        height: 1750px;
+
+        .card {
+            margin-bottom: 20px;
+        }
+    }
+
+    //pricing section ends
+
+    //footer starts
+    .helpful-links,
+    .support,
+    .contact-info {
+        margin-top: 30px !important;
+    }
+
+    //footer ends
+
+    //advantages section starts
+    #advantages {
+        .card {
+            .image-add {
+                margin: 56px auto !important;
+            }
+        }
+    }
+
+    //advantages section ends
+
+    //faq section starts
+    #frequently-asked-questions {
+        .frequently-asked-questions-questions {
+            margin-top: 40px;
+            width: 100%;
+            margin-left: 20px;
+
+        }
+
+
+    }
+
+    //faq section ends
+
+    //map section starts
+    #map {
+        .map-bottom-contact-info {
+            width: 100% !important;
+            bottom: 0px !important;
+            margin: 50px auto !important;
+        }
+    }
+
+    //map section ends
+
+    //our mission starts
+    #our-mission {
+        padding: 100px;
+
+        .our-mission-text {
+            width: 100% !important;
+            left: 0 !important;
+            top: 100px !important;
+            margin-top: 200px !important;
+            // margin-bottom:100px !important;
+            z-index: 100000 !important;
+            // margin-bottom:300px !important;
+
+        }
+    }
+
+    //our mission ends
+}
+
+@media only screen and (max-width:767px) {
+
+
+    //fields section starts
+    #fields {
+        .card {
+            margin-bottom: 35px;
+            margin-right: 5px;
+        }
+    }
+
+    //fields section ends
+
+    //cloud-services section starts
+    #cloud-services,
+    #design-development {
+
+        .cloud-services-image,
+        .design-development-image {
+
+            margin-top: 20px;
+
+        }
+    }
+
+    //pricing section starts
+    #pricing {
+        height: 2450px;
+
+        .card {
+            margin-bottom: 20px;
+        }
+    }
+
+
+    //get-in-touch section starts
+    #get-in-touch {
+        .get-in-touch-form {
+
+            .col-md-6,
+            .col-md-12 {
+                padding-left: 0 !important;
+            }
+
+            button {
+                margin-left: 0 !important;
+            }
+        }
+    }
+
+    //get-in-touch section ends
+
+
+}
+
+@media only screen and (max-width:575px) {
+
+
+    //fields section starts
+    #fields {
+        .card {
+            max-width: 600px;
+            margin-bottom: 35px;
+            margin-right: 0;
+            margin-left: 5px;
+        }
+
+        .cloud-logo,
+        .laptop-logo,
+        .camera-logo,
+        .server-logo {
+            margin: auto !important;
+        }
+    }
+
+    //fields section ends
+
+    //cloud-services section starts
+    #cloud-services,
+    #design-development {
+
+        .cloud-services-image,
+        .design-development-image {
+
+            margin-top: 20px;
+
+        }
+    }
+
+    //cloud-services section ends
+
+
+}

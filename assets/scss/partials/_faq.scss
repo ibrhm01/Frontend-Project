@@ -1,0 +1,104 @@
+#frequently-asked-questions {
+    background-color: white;
+    padding: 100px 0;
+
+
+    .frequently-asked-questions-text {
+        padding-left: 30px;
+
+        h2 {
+            color: #585CE9;
+            font-weight: 400;
+        }
+
+        p {
+            color: #6F8BA4;
+        }
+
+        button {
+            background-color: #585CE9;
+            color: white;
+            padding: 10px 30px;
+        }
+
+        p,
+        button {
+            margin-top: 20px;
+        }
+    }
+
+    .frequently-asked-questions-questions {
+        box-shadow: 0 0 20px rgba(197, 197, 197, 0.257);
+        width: 95%;
+        padding: 0;
+        // padding-right:20px;
+
+
+
+        .question {
+
+            button {
+                &:focus {
+                    outline: 0;
+                }
+
+                span {
+                    display: inline-block;
+                    transition: transform 0.3s;
+                }
+
+                width:100%;
+                // height: 50px;
+                padding: 15px 30px;
+                border: 0;
+                border-bottom:1px solid rgba(227, 227, 227, 0.475);
+                transition: all 0.3s;
+                background-color: white;
+                color: #3B566E;
+                position: relative;
+
+                &:hover {
+                    background-color: rgb(226, 226, 226);
+
+                    span {
+                        transform: translateX(10px);
+                    }
+
+                    cursor: pointer;
+                }
+
+                font-size: 17px;
+                text-align: start;
+
+                // &.active-tab {
+                //     background-color: rgb(229, 229, 229);
+                // }
+
+                // &::after {
+                //     content: "+";
+                //     position: absolute;
+                //     right: 30px;
+                // }
+
+                // &.active-tab::after {
+                //     content: "-";
+                //     width: 11.64px;
+                //     text-align: center;
+                // }
+            }
+
+            p {
+                color: #6F8BA4;
+                background-color: rgb(255, 255, 255);
+                margin: 0;
+                padding: 30px;
+                width: 100%;
+
+                &.display-none {
+                    display: none;
+                }
+            }
+
+        }
+    }
+}

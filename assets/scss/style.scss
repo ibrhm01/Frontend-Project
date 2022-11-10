@@ -1,0 +1,115 @@
+html,
+body {
+    width: 100%;
+    // height:100%;
+}
+html{
+scroll-behavior: smooth;}
+
+body {
+    background-image: url("/assets/images/header-bg.svg");
+    background-repeat: no-repeat;
+}
+
+p {
+    line-height: 28px;
+}
+
+button {
+    &:focus {
+        outline:none!important;
+    }
+}
+
+
+//navbar section starts
+
+@import "./partials/navbar";
+
+//navbar section ends
+
+
+
+//about section starts
+
+@import "./partials/about";
+
+//about section ends
+
+
+
+//fields section starts
+
+@import "./partials/fields";
+
+//fields section ends
+
+
+//cloud-services section starts
+@import "./partials/cloud-services";
+//cloud-servives section ends
+
+//statistics-section starts
+@import "./partials/statistics";
+//statistics-section ends
+
+//our-team section starts
+
+@import "./partials/our-team";
+
+//our-team section ends
+
+//pricing section starts
+@import "./partials/pricing";
+//pricing section ends
+
+//contact-us section starts
+@import "./partials/contact-us";
+//contact-us section ends
+
+//blog-posts section starts
+
+@import "./partials/home-page-blog";
+
+//blog-posts section ends
+
+//footer starts
+@import "./partials/footer";
+//footer ends
+
+
+//responsivity starts
+
+@import "./partials/responsivity";
+
+//responsivity ends
+
+
+
+//our-mission section starts
+@import "./partials/our-mission";
+//our-mission section ends
+
+//advantages section starts
+@import "./partials/advantages";
+//advantages section ends
+
+//faq section starts
+@import "./partials/faq";
+//faq section ends
+
+//blog section starts
+@import "./partials/blog";
+//blog section ends
+
+//map section starts
+@import "./partials/map";
+//map section ends
+
+//get-in-touch section starts
+@import "./partials/get-in-touch";
+//get-in-touch section ends
+
+//mixin starts
+@import "./partials/mixin";
+//mixin ends
