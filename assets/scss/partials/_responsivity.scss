@@ -177,6 +177,12 @@
     }
 
     //our mission ends
+
+    #blog {
+        .blog-menu {
+            padding-top: 0 !important;
+        }
+    }
 }
 
 @media only screen and (max-width:767px) {
@@ -236,6 +242,14 @@
 
 @media only screen and (max-width:575px) {
 
+    #blog-single {
+        .comment-text {
+            margin-left: 50px !important;
+            button{
+                margin-right:0px !important;
+            }
+        }
+    }
 
     //fields section starts
     #fields {

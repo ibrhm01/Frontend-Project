@@ -2,7 +2,7 @@
     margin: 100px 0;
     display: flex;
     flex-direction: column;
-    
+
 
     .our-team-title {
         display: flex;
@@ -29,18 +29,33 @@
         flex-wrap: wrap;
 
         .member {
+            &:hover {
+                .member-image {
+                    transform: translateY(10px);
+
+                }
+
+                .icons {
+                    background-color: #585CE9 !important;
+
+                    i {
+                        color: white !important;
+                    }
+                }
+            }
 
             .member-image {
-                width:100px;
+                width: 100px;
                 margin: auto;
-                position:relative;
-                bottom:10%;
+                position: relative;
+                bottom: 10%;
+                transition: transform 0.4s;
+
 
                 img {
                     border-radius: 50%;
                     border: 6px solid white;
                 }
-                // display:inline;    
             }
 
             .card {
@@ -50,17 +65,17 @@
                 box-shadow: 0px 0px 30px rgba(36, 36, 36, 0.272);
 
                 .icons {
-                    transition: background-color 0.5s ease 0s;
-                }
+                    text-align: center;
+                    background-color: white;
+                    padding-top: 20px;
 
-                &:hover {
-                    .icons {
-                        background-color: #585CE9;
-
-                        i {
-                            color: white;
-                        }
+                    i {
+                        color: #585CE9;
+                        margin: 0 7px;
                     }
+
+                    transition: background-color 0.5s;
+                    padding-bottom:10px;
                 }
 
                 .card-header {
@@ -83,24 +98,12 @@
                     border:0;
                 }
 
-                .icons {
-                    text-align: center;
-                    // height: 50px;
-                    background-color: white;
-                    padding-top: 20px;
-                    // height: 55px;
-
-                    i {
-                        color: #585CE9;
-                        margin: 0 7px;
-                    }
-                }
-
                 .card-body {
                     background-color: #fff;
 
                     p {
                         text-align: center;
+                        color:#6F8BA4;
                     }
 
                     height:150px;

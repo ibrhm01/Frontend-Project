@@ -4,7 +4,8 @@ body {
     // height:100%;
 }
 html{
-scroll-behavior: smooth;}
+scroll-behavior: smooth;
+}
 
 body {
     background-image: url("/assets/images/header-bg.svg");
@@ -109,7 +110,3 @@ button {
 //get-in-touch section starts
 @import "./partials/get-in-touch";
 //get-in-touch section ends
-
-//mixin starts
-@import "./partials/mixin";
-//mixin ends

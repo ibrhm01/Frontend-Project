@@ -33,9 +33,13 @@
             border: 0;
             padding: 10px 45px;
             background-color: #585CE9;
-            color: white;
             border-radius: 5px;
             transition: background-color 0.3s;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
 
             &:hover {
                 background-color: #4245b4;

@@ -164,9 +164,14 @@
 }
 #blog-single-intro{
     h2 {
+        position:relative;
+        text-align: center;
         &::after {
             content: "";
-            left: 400px;
+            position:absolute;
+            left:0;
+            right:0;
+            margin:auto;
         }
     }
     ul{
@@ -211,7 +216,7 @@
 }
 
 #contact {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 0px;
 
     h2 {
