@@ -4,7 +4,7 @@ Jirono is a modern, responsive frontend website designed for an industry-leading
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Responsive Navigation:** A Bootstrap-powered navbar featuring custom dropdown menus ("Discover" and "Pages") alongside toggleable mobile menu integration.
 * **Dynamic Accordions & UI Elements:** Custom interactive dropdowns and accordion logic for Frequently Asked Questions (FAQ) and services, managed dynamically via jQuery.
@@ -17,7 +17,7 @@ Jirono is a modern, responsive frontend website designed for an industry-leading
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 ### **Frontend Core**
 * **HTML5:** Semantic structure across all corporate page templates.
@@ -32,7 +32,7 @@ The styling architecture leverages **SASS (SCSS)** to keep the codebase clean, m
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 ├── about-us.html               # About company template
